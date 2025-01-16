@@ -11,16 +11,11 @@ type Props = {
 export default function GradientImageWrapper({ children, from, to }: Props) {
   const { gradient } = useTheme();
   const gradientStyle = {
-    backgroundImage: `linear-gradient(to top right, ${
-      from ? from : gradient.from
-    } 0%, ${to ? to : gradient.to} 100%)`,
+    backgroundImage: `linear-gradient(to top right, ${from ? from : gradient.from} 0%, ${to ? to : gradient.to} 100%)`,
   };
 
   return (
-    <div
-      className={classNames("rounded-lg  px-20 py-10")}
-      style={gradientStyle}
-    >
+    <div className={classNames("rounded-lg p-5")} style={gradientStyle}>
       {children}
     </div>
   );

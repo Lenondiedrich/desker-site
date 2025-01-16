@@ -3,18 +3,14 @@ import { FooterType } from "@/common/modules/Footer";
 export default {
   description: "",
   copyright: "Desker. Todos os direitos reservados.",
-  email: "example@domain.com",
-  twitter: {
-    title: "Twitter",
-    link: "/#",
-  },
-  facebook: {
-    title: "Facebook",
-    link: "/#",
+  email: "contato@desker.com.br",
+  linkedin: {
+    title: "Linkedin",
+    link: "https://www.linkedin.com/company/soudesker/",
   },
   instagram: {
     title: "Instagram",
-    link: "/#",
+    link: "https://www.instagram.com/soudesker/",
   },
 
   linkGroups: [
@@ -40,36 +36,17 @@ export default {
       ],
     },
     {
-      title: "Support",
-      links: [
-        {
-          title: "Check Uptime",
-          href: "/#",
-        },
-        {
-          title: "Request Feedback",
-          href: "/#",
-        },
-        {
-          title: "Submit Bugs",
-          href: "/#",
-        },
-        {
-          title: "Contact Us",
-          href: "/#",
-        },
-      ],
-    },
-    {
       title: "Legal",
       links: [
         {
-          title: "Imprint",
-          href: "/#",
+          title: "Termos de uso",
+          href: "https://docs.google.com/document/d/1HfIOJtjS0eBVeNDxW206NTEDd8eulg6s/edit",
+          target: "_blank",
         },
         {
-          title: "Privacy Policy",
-          href: "/#",
+          title: "Política de privacidade",
+          href: "https://drive.google.com/file/d/1lZTqTXsCt1I2eQOXRxsMzK66hq-gKIRs/view",
+          target: "_blank",
         },
         {
           title: "Cookies",

@@ -19,9 +19,7 @@ export default function FAQ({ kicker, title, description, faqs }: FAQType) {
   return (
     <div>
       <InnerContainer>
-        <span className="text-main my-3 flex items-center justify-center font-medium uppercase tracking-wider">
-          {kicker}
-        </span>
+        <span className="text-main my-3 flex items-center justify-center font-medium uppercase tracking-wider">{kicker}</span>
         <div className="text-center">
           <H2>{title}</H2>
           <p className="mx-auto my-4 w-full max-w-xl bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-400">
@@ -29,9 +27,7 @@ export default function FAQ({ kicker, title, description, faqs }: FAQType) {
           </p>
         </div>
 
-        <div className="mx-auto mt-16 flex max-w-lg flex-col gap-4">
-          {faqs && faqs.map((faq, index) => <FAQItem key={index} {...faq} />)}
-        </div>
+        <div className="mx-auto mt-16 flex max-w-lg flex-col gap-4">{faqs && faqs.map((faq, index) => <FAQItem key={index} {...faq} />)}</div>
       </InnerContainer>
     </div>
   );

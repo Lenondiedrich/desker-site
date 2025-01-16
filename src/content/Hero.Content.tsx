@@ -4,14 +4,19 @@ import DemoBanner from "@/assets/images/banner-demo.gif";
 
 export default {
   notfication: {
-    tag: "Novo -",
+    tag: "Novo",
     text: "Lançamos a versão 4.0 da plataforma.",
     button: "Confira aqui",
     href: "#",
   },
-  title: "A plataforma de Gestão de Projetos de Construção",
-  description:
-    "Simplifique processos, conecte equipes e alcance resultados incríveis com a plataforma n°1 do mercado",
+  title: (
+    <>
+      A plataforma de <br />
+      Gestão de Projetos <br />
+      de Construção
+    </>
+  ),
+  description: "Simplifique processos, conecte equipes e alcance resultados incríveis com a plataforma n°1 do mercado",
   buttons: [
     { title: "Comece agora", href: "/pricing", type: "primary" },
     { title: "Login", href: "/#features", type: "secondary" },

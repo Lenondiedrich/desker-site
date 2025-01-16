@@ -1,8 +1,8 @@
 export const Default = {
   main: "#18a556",
   gradient: {
-    from: "#18a556",
-    to: "#1f8452",
+    from: "#4f46e5",
+    to: "#dc2626",
   },
 };
 

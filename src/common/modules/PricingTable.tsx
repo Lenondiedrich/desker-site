@@ -11,10 +11,7 @@ export type PricingTableType = {
 export default function PricingTable({ plans }: PricingTableType) {
   return (
     <>
-      <GradientBackgroundImage
-        src={RedGradientBackground}
-        position="bottom-0"
-      />
+      <GradientBackgroundImage src={RedGradientBackground} position="bottom-0" />
       <Container className="z-10 grid grid-cols-1 gap-10 sm:gap-20 md:grid-cols-2 md:gap-10 xl:grid-cols-3">
         {plans.map((plan, index) => (
           <PricingCard {...plan} key={index} />

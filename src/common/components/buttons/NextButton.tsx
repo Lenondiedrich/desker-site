@@ -13,19 +13,8 @@ export type ButtonType = {
   subItems?: ButtonType[];
 };
 
-export default function NextButton({
-  title,
-  className,
-  tabIndex,
-  size = "regular",
-  href,
-  type = "primary",
-  target,
-}: ButtonType) {
-  const sizeClass =
-    size === "small"
-      ? "px-6 py-[10px] text-xs"
-      : "px-8 py-3 text-xs sm:text-sm";
+export default function NextButton({ title, className, tabIndex, size = "regular", href, type = "primary", target }: ButtonType) {
+  const sizeClass = size === "small" ? "px-6 py-[10px] text-xs" : "px-8 py-3 text-xs sm:text-sm";
 
   const onClickHandler = () => {
     if (target) {
@@ -41,7 +30,7 @@ export default function NextButton({
         <button
           onClick={onClickHandler}
           className={classNames(
-            "bg-main bg-main-hover button-text flex items-center justify-center whitespace-nowrap rounded-md transition-all duration-300",
+            "button-text flex items-center justify-center whitespace-nowrap rounded-md bg-[#5046E5] transition-all duration-300 hover:bg-[#5046E5]/80",
             sizeClass,
             className
           )}

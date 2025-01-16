@@ -37,10 +37,7 @@ export default function LandingPage() {
       </Head>
 
       {/* Hero Background Gradient Image */}
-      <GradientBackgroundImage
-        src={HeroGradientBackground}
-        className="opacity-80"
-      />
+      <GradientBackgroundImage src={HeroGradientBackground} className="opacity-80" />
 
       <AppLayout>
         {/* Hero Section with Logo Clouds */}

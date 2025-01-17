@@ -34,14 +34,7 @@ export default function NextImage({
   const borderClass = border ? "border" : "";
 
   const ImageContainer = () => (
-    <div
-      className={classNames(
-        "relative inline-block overflow-hidden rounded-lg border-neutral-800",
-        grayscaleClass,
-        borderClass,
-        className
-      )}
-    >
+    <div className={classNames("relative inline-block overflow-hidden rounded-lg border-neutral-800", grayscaleClass, borderClass, className)}>
       <Image
         priority={priority}
         src={src}

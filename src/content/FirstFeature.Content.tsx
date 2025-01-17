@@ -1,6 +1,6 @@
 import { FeatureContentType } from "@/common/modules/FeatureContent";
 import { IconUpload, IconArrowAutofitDown, IconStars, IconWind, IconBolt } from "@tabler/icons";
-import Image from "@/assets/images/section-image-one.jpg";
+import Image from "@/assets/images/first-section.jpg";
 
 export default {
   kicker: "Resultados imediatos",
@@ -17,5 +17,5 @@ export default {
     { label: "Visualização interativa", icon: <IconWind size={17} /> },
     { label: "Otimizado", icon: <IconBolt size={17} /> },
   ],
-  image: { src: Image, width: 600, gradientWrapper: true },
+  image: { src: Image, width: 620, gradientWrapper: true },
 } as FeatureContentType;

@@ -15,7 +15,7 @@ export default function GradientImageWrapper({ children, from, to }: Props) {
   };
 
   return (
-    <div className={classNames("rounded-lg p-5")} style={gradientStyle}>
+    <div className={classNames("flex items-center justify-center rounded-lg p-1")} style={gradientStyle}>
       {children}
     </div>
   );

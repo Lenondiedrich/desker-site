@@ -1,5 +1,5 @@
 import { FeatureContentType } from "@/common/modules/FeatureContent";
-import BannerCalendar from "@/assets/images/banner-calendar.gif";
+import Image from "@/assets/images/section-image-one.jpg";
 
 import { IconUpload, IconArrowAutofitDown, IconStars, IconWind, IconBolt } from "@tabler/icons";
 
@@ -19,5 +19,5 @@ export default {
     { label: "Visualização interativa", icon: <IconWind size={17} /> },
     { label: "Otimizado", icon: <IconBolt size={17} /> },
   ],
-  image: { src: BannerCalendar, width: 600 },
+  image: { src: Image, width: 600 },
 } as FeatureContentType;

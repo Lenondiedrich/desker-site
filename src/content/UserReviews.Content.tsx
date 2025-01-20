@@ -1,4 +1,7 @@
 import { UserReviewSectionType } from "@/common/modules/UserReviews";
+import UserOne from "@/assets/images/mateus.jpg";
+import UserTwo from "@/assets/images/patrick.jpg";
+import UserThree from "@/assets/images/cris.jpg";
 
 export default {
   kicker: "Junte-se as equipes que usam a Desker todo dia",
@@ -11,32 +14,32 @@ export default {
     {
       stars: 5,
       quote:
-        "I've been using NextSiders for over a year now and their customer service is excellent! Whenever I have a question, the team is always available and willing to help. Highly recommend!",
+        "Gerenciar múltiplos projetos simultaneamente sempre foi um desafio para a CSE. A Desker nos ajudou a organizar prioridades, acompanhar o progresso em tempo real e otimizar a agenda dos colaboradores. Agora, conseguimos medir o tempo gasto em cada tarefa e traduzir esses resultados em números claros para a empresa. É a ferramenta que trouxe previsibilidade e eficiência para o nosso escritório.",
       image: {
-        src: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+        src: UserOne,
       },
-      name: "Melissa Smith",
-      role: "Marketing Manager",
+      name: "Mateus Felippi",
+      role: "EngeÁgil Projetos",
     },
     {
       stars: 5,
       quote:
-        "NextSiders has made a huge impact on our business! The tools they provide are easy to use and have saved us a lot of time and energy.",
+        "A Desker transformou nossa gestão de projetos. Antes, lidávamos com prazos apertados e falhas de comunicação. Hoje, centralizamos todas as etapas em um só lugar, elaboramos cronogramas eficientes e integramos o comercial e financeiro na plataforma, eliminando ferramentas e planilhas desnecessárias.",
       image: {
-        src: "https://images.unsplash.com/photo-1504257432389-52343af06ae3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        src: UserTwo,
       },
-      name: "Jake Johnson",
-      role: "Business Owner",
+      name: "Patrick Galli",
+      role: "Nexplan Arquitetura",
     },
     {
       stars: 5,
       quote:
-        "I'm so impressed with the quality of NextSiders' services. They've made a huge difference in our workflow and have helped us become more efficient. ",
+        "Gerenciar múltiplos projetos simultaneamente sempre foi um desafio para a CSE. A Desker nos ajudou a organizar prioridades, acompanhar o progresso em tempo real e otimizar a agenda dos colaboradores. Agora, conseguimos medir o tempo gasto em cada tarefa e traduzir esses resultados em números claros para a empresa. É a ferramenta que trouxe previsibilidade e eficiência para o nosso escritório.",
       image: {
-        src: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=761&q=80",
+        src: UserThree,
       },
-      name: "Sarah Williams",
-      role: "CEO of Acme Inc.",
+      name: "Cristian Caon",
+      role: "CSE Estruturas",
     },
   ],
 } as UserReviewSectionType;
